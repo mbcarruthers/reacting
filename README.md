@@ -2,19 +2,19 @@
 
 # Getting Started
 
-*Create a new project with Create React App.
+* Create a new project with Create React App.
 
-*Delete the src directory and all of its contents.
+* Delete the src directory and all of its contents.
 
-*Create a new src directory and a new index.js file inside of src.
+* Create a new src directory and a new index.js file inside of src.
 
-*Create a new directory named components inside of src.
+* Create a new directory named components inside of src.
 
 
 
 # Simple Tasks a la React
 
-# Each time you save your files while completing these tasks, check the terminal and browser for compilation errors, and pay attention to what they are telling you. For example, if something is "undefined", why does React think that? What should be defined, and where?
+ Each time you save your files while completing these tasks, check the terminal and browser for compilation errors, and pay attention to what they are telling you. For example, if something is "undefined", why does React think that? What should be defined, and where?
 
 * 1 React is component-based, and each component should be separated into its own file. Start this exercise by creating an "App.jsx" component in your src/components directory. Then, create a functional component named "App", and define a simple JSX element inside of that component (Hint: start with something obvious, like a `<h1>` element). Then, return that element from the App component.
 
