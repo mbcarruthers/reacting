@@ -20,7 +20,10 @@ export default class App extends Component {
     }
     render() {
         return(
-            <h1> { this.state.text } </h1>
+            <div>
+                <h1> { this.state.text } </h1>
+                <h1> { this.props.value } </h1>
+            </div>
         )
     }
 }
