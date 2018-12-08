@@ -15,12 +15,12 @@ export default class App extends Component {
     constructor( props ) {
         super( props );
         this.state = {
-            value: props.value,
+            text: props.value,
         }
     }
     render() {
         return(
-            <h1> { this.state.value } </h1>
+            <h1> { this.state.text } </h1>
         )
     }
 }
