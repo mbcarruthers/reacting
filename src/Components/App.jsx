@@ -27,7 +27,7 @@ export default class App extends Component {
         })
     };
     /*===============================*/
-    toggle = () => {
+    toggle = () => { // function is not needed but is required by the objectives. I accomplished it differently on line 58
         if (this.state.hasLoaded === false)
             this.state.hasLoaded = true;
         else if (this.state.hasLoaded === true)
